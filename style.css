@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #998235;
+}
+.black-keys {
+  top: 35%;
+  left: 132px;
+  position: absolute;
+  gap: 10px;
+  height: 37px;
+  display: flex;
+  align-items: stretch;
+}
+.white-keys {
+  position: absolute;
+  top: 33%;
+  left: 112px;
+  display: flex;
+  gap: 5px;
+  align-items: stretch;
+  height: 100px;
+  background-color: #191919;
+  padding: 5px;
+  padding-top: 25px;
+  border-radius: 10px;
+}
+.white {
+  background: white;
+  width: 20px;
+  border-radius: 3px;
+}
+.black {
+  background: #191919;
+  width: 15px;
+}
+.blank {
+  background: none;
+}
